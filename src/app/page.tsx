@@ -1,9 +1,9 @@
 'use client';
 import { useState } from 'react';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 export default function Home() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [streaming, setStreaming] = useState(false);
   const [caption, setCaption] = useState('');
   const [imageData, setImageData] = useState('');
